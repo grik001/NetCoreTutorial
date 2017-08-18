@@ -6,11 +6,15 @@
 </head>
 <body>
     <h1>V i e w</h1>
-
     <h2>@Model.CurrentMessage</h2>
+
     @foreach (var item in Model.Ingredients)
     {
-        <h2>@item.Code Price: @item.Price</h2>
+        <div>
+            <a href="/home/details/@item.ID">Details</a>
+            @Html.ActionLink("View", "Details", new {id = @item.ID})
+        </div>
+        <h2>@item.Code Price: @item.Price</h2> 
     }
 </body>
 </html>

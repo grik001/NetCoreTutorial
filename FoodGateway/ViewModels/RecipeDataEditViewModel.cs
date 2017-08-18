@@ -6,10 +6,10 @@ using FoodGateway.Entities;
 
 namespace FoodGateway.ViewModels
 {
-    public class HomePageViewModel
+    public class RecipeDataEditViewModel
     {
-        public string CurrentMessage { get; set; }
-        public IEnumerable<Ingredient> Ingredients { get; set; }
+        public string Name { get; set; }
+        public CuisineType Cuisine { get; set; }
     }
 }
 

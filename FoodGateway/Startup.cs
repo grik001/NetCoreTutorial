@@ -29,12 +29,12 @@ namespace FoodGateway
         {
             services.AddMvc();
             services.AddSingleton(Config);
-            services.AddSingleton<IRecipe, Recipe>();
-            services.AddScoped<IRecipeData, RecipeDataInMemory>();
+            services.AddSingleton<IWelcomeMessage, WelcomeMessage>();
+            services.AddScoped<IIngredientData, IngredientDataInMemory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IRecipe recipe)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IWelcomeMessage recipe)
         {
             loggerFactory.AddConsole();
 
