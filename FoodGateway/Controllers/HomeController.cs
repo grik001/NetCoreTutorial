@@ -72,12 +72,16 @@ namespace FoodGateway.Controllers
 
         public IActionResult Create(RecipeDataEditViewModel model)
         {
-            Ingredient ingredient = new Ingredient();
-            ingredient.Name = model.Name;
-            ingredient.Cuisine = model.Cuisine;
+            if (ModelState.IsValid)
+            {
+                Ingredient ingredient = new Ingredient();
+                ingredient.Name = model.Name;
+                ingredient.Cuisine = model.Cuisine;
 
-            ingredient = _recipe.Add(ingredient);
-            return RedirectToAction("Details", new { id = ingredient.ID });
+                ingredient = _recipe.Add(ingredient);
+                return RedirectToAction("Details", new { id = ingredient.ID });
+            }
+            return View();
         }
     }
 }
