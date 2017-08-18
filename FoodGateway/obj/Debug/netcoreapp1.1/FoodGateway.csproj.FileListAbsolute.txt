@@ -1,0 +1,11 @@
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\bin\Debug\netcoreapp1.1\FoodGateway.deps.json
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\bin\Debug\netcoreapp1.1\FoodGateway.runtimeconfig.json
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\bin\Debug\netcoreapp1.1\FoodGateway.runtimeconfig.dev.json
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\bin\Debug\netcoreapp1.1\FoodGateway.dll
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\bin\Debug\netcoreapp1.1\FoodGateway.pdb
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.csprojResolveAssemblyReference.cache
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.csproj.CoreCompileInputs.cache
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.AssemblyInfoInputs.cache
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.AssemblyInfo.cs
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.dll
+c:\users\grik001\documents\visual studio 2017\Projects\FoodGateway\FoodGateway\obj\Debug\netcoreapp1.1\FoodGateway.pdb

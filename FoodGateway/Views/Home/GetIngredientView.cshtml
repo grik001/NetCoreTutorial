@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FoodGateway.Entities.Ingredient>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fooood!</title>
+</head>
+<body>
+    <h1>V i e w</h1>
+    @foreach (var item in Model)
+    {
+        <h2>@item.Code Price: @item.Price</h2>
+    }
+</body>
+</html>
